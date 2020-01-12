@@ -1,0 +1,19 @@
+{
+  "name": "tdd-nodejs-clean-architecture",
+  "version": "1.0.0",
+  "description": "API em NodeJS com Clean Architecture e TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silviolucenajunior/api-nodejs-tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silviolucenajunior/api-nodejs-tdd/issues"
+  },
+  "homepage": "https://github.com/silviolucenajunior/api-nodejs-tdd#readme"
+}
