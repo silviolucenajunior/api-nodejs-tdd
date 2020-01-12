@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/silviolucenajunior/api-nodejs-tdd/issues"
   },
-  "homepage": "https://github.com/silviolucenajunior/api-nodejs-tdd#readme"
+  "homepage": "https://github.com/silviolucenajunior/api-nodejs-tdd#readme",
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
 }
