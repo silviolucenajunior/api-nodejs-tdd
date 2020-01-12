@@ -1,35 +1,25 @@
 {
-  "name": "tdd-nodejs-clean-architecture",
-  "version": "1.0.0",
-  "description": "API em NodeJS com Clean Architecture e TDD",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "lint-staged": {
-    "*.js": [
-      "standard"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
+    "name": "tdd-nodejs-clean-architecture",
+    "version": "1.0.0",
+    "description": "API em NodeJS com Clean Architecture e TDD",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/silviolucenajunior/api-nodejs-tdd.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/silviolucenajunior/api-nodejs-tdd/issues"
+    },
+    "homepage": "https://github.com/silviolucenajunior/api-nodejs-tdd#readme",
+    "devDependencies": {
+        "husky": "^4.0.7",
+        "jest": "^24.9.0",
+        "lint-staged": "^9.5.0",
+        "standard": "^14.3.1"
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/silviolucenajunior/api-nodejs-tdd.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/silviolucenajunior/api-nodejs-tdd/issues"
-  },
-  "homepage": "https://github.com/silviolucenajunior/api-nodejs-tdd#readme",
-  "devDependencies": {
-    "husky": "^4.0.7",
-    "jest": "^24.9.0",
-    "lint-staged": "^9.5.0",
-    "standard": "^14.3.1"
-  }
 }
